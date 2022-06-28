@@ -1,25 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
-
-function App() {
+// import React from 'react'
+import Resturant from './Projects/DynamicResturantWebsite/Resturant';
+// import UseState from './hooks/useState';
+// import UseEffect from './hooks/useEffect';
+// import UseReducer from './hooks/useReducer';
+// import Todo from './component/todoReact/todo';
+import CovidTrack from './Projects/CovidTracker/CovidTrack';
+// import Todo from './Projects/todoReact/todo'
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    // <Resturant />
+    // <UseState/>
+    // <UseEffect />
+    // <UseReducer />
+    // <Todo />
+    <Resturant/>
+  )
 }
 
 export default App;
