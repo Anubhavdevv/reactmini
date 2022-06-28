@@ -1,0 +1,105 @@
+body{
+    background-color: #121212;
+}
+
+h1,h2{
+    text-align: center;
+    color: rgb(238, 231, 231);
+}
+
+h1{
+    transition: 0s;
+    transform: scale(1.1);
+    color: rgb(238, 231, 231);
+}
+
+
+
+
+ul{
+    list-style: none;
+    display: flex;
+    flex-flow: wrap;
+    
+}
+
+
+.card{
+    background: rgb(210,224,50);
+    background: linear-gradient(90deg, rgba(210,224,50,1) 12%, rgba(0,212,255,1) 95%);
+     width: calc(76%/3);
+    margin: 2%;
+    padding: 2%;
+    text-align: center;
+    transition: 0.3s;
+
+}
+
+.card:hover{
+    transform:scale(1.1);
+} 
+
+.card__name{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.card__name span {
+    font-size: 15px;
+}
+
+.card__total {
+    font-size: 200%;
+    font-weight: bold;
+
+}
+.card__back {
+    transform: rotateY(180deg) scale(1.1);
+    background: #141414;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+}
+
+.card__back span {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.card__name {
+    font-size: 32px;
+    line-height: 0.9;
+    font-weight: 700;
+}
+
+.card__name span {
+    font-size: 14px;
+}
+
+.card__small {
+    font-size: 80px;
+}
+
+@media (max-width: 700px) {
+    .card__total {
+        font-size: 70px;
+    }
+}
+
+@media (max-width: 700px) {
+    .card {
+        width: 100%;
+        height: 290px;
+        margin-right: 0;
+        float: none;
+    }
+}
+
+.card .card__inner,
+.card .card__back {
+    height: 290px;
+}

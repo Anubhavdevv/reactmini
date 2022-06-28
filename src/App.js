@@ -1,5 +1,5 @@
 // import React from 'react'
-import Resturant from './Projects/DynamicResturantWebsite/Resturant';
+// import Resturant from './Projects/DynamicResturantWebsite/Resturant';
 // import UseState from './hooks/useState';
 // import UseEffect from './hooks/useEffect';
 // import UseReducer from './hooks/useReducer';
@@ -13,7 +13,7 @@ const App = () => {
     // <UseEffect />
     // <UseReducer />
     // <Todo />
-    <Resturant/>
+    <CovidTrack/>
   )
 }
 
